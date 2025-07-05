@@ -2,6 +2,7 @@ fastapi
 uvicorn
 openai
 dotenv
-moviepy
+moviepy[all]
 python-multipart
-requests 
+requests
+imageio-ffmpeg 
