@@ -23,7 +23,7 @@ def create_video(image_paths, audio_path, script, output_path="final_video.mp4")
     for i, word in enumerate(words):
         start = i * word_duration
         end = (i + 1) * word_duration
-        txt_clip = (TextClip(word, fontsize=80, color='white', font='Arial-Bold', size=(1080, None), method='caption')
+        txt_clip = (TextClip(word, fontsize=80, color='white', font='DejaVu-Sans', size=(1080, None), method='caption')
                     .set_position(('center', 1600))
                     .set_start(start)
                     .set_end(end)
